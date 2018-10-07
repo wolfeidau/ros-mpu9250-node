@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>mpu9250_node</name>
+  <version>1.0.0</version>
+  <description>
+  This package provides mpu9250 IMU node.
+  </description>
+  <maintainer email="mark@wolfe.id.au">Mark Wolfe</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_depend>std_srvs</build_depend>
+
+  <run_depend>imu_filter_madgwick</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+</package>
