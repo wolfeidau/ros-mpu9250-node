@@ -2,6 +2,12 @@
 
 This is a ROS driver for the MPU-9250 IMU.
 
+# launch
+
+```
+roslaunch mpu9250_node mpu9250.launch
+```
+
 # dependencies
 
 * https://github.com/intel-iot-devkit/upm
